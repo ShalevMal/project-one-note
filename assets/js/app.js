@@ -74,7 +74,7 @@ function addTask(event) {
         saveTaskToStorage(data);
         clearForm();
     } else {
-        alert("All fields must be filled out before adding a task.");
+        alert("Fill in all the fields you fucking idiot!!!");
     }
 }
 
