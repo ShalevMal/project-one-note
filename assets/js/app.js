@@ -8,7 +8,7 @@ function collectData() {
 
 function generateHTML(data) {
     const newHTML = `
-        <div class="task" data-index="${data.index}" style="background-image: url('/assets/images/notebg.png');">
+        <div class="task" data-index="${data.index}" style="background-image: url('assets/images/notebg.png');">
             <div class="task-header">
                 <i class="bi bi-x-circle" onclick="deleteTask(${data.index})"></i>
             </div>
