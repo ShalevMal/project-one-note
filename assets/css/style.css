@@ -57,7 +57,7 @@ form {
     background-color: rgba(255, 255, 255, 0.196);
     padding: 20px;
     position: relative;
-    top: 0;
+    top: 12px;
 }
 
 form input,
@@ -211,8 +211,13 @@ form textarea {
 @media (max-width: 480px) {
     .gridContainer {
         grid-template-columns: 5% 90% 5%;
-        grid-template-rows: 5% 40% 10% auto;
+        grid-template-rows: 5% 30% 10% auto;
         width: 100%;
+    }
+
+    form input,
+    form textarea {
+        font-size: 1.4em;
     }
 
     .buttonsContainer {
@@ -226,6 +231,10 @@ form textarea {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         padding: 0;
-        padding-top: 15px;
+    }
+
+    .task {
+        position: relative;
+        width: auto;
     }
 }
